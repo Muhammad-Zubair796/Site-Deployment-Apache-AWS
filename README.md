@@ -1,5 +1,4 @@
 
----
 
 ```markdown
 # AWS Static Website Deployment Demo
@@ -8,8 +7,6 @@ This project demonstrates how to host a high-performance static website using an
 
 ## 🚀 Live Demo
 **Public IP:** [http://13.49.148.165](http://13.49.148.165)
-
----
 
 ## 🛠️ Project Architecture
 
@@ -20,9 +17,6 @@ The deployment follows a standard cloud architecture:
 2.  **Compute:** EC2 Instance (Ubuntu 24.04 LTS)
 3.  **Web Server:** Apache2 (`httpd` equivalent)
 4.  **Security:** Inbound Rules configured for Port 80 (HTTP)
-
----
-
 
 ```
 ## 📋 Steps Taken for Deployment
@@ -77,7 +71,6 @@ sudo chmod -R 755 /var/www/html
 * **Security Groups:** Configured Inbound Rules in the AWS Console to allow **HTTP (Port 80)** traffic from `0.0.0.0/0`.
 * **Verification:** Used `curl -I localhost` to confirm the server status (200 OK).
 
----
 
 ## 📂 Project Structure
 
@@ -86,11 +79,10 @@ sudo chmod -R 755 /var/www/html
 * `/images` - Graphic assets for the UI.
 * `/error` - Custom error pages.
 
----
 
 ## 👤 Author
 **Muhammad Zubair**
 * GitHub: [@Muhammad-Zubair796](https://www.google.com/search?q=https://github.com/Muhammad-Zubair796)
-```
+
 
 
