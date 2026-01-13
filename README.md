@@ -1,8 +1,6 @@
 
 ---
 
-### Copy and Paste this into your `README.md` file:
-
 ```markdown
 # AWS Static Website Deployment Demo
 
@@ -25,9 +23,9 @@ The deployment follows a standard cloud architecture:
 
 ---
 
-## 📋 Steps Taken for Deployment
-```
 
+```
+## 📋 Steps Taken for Deployment
 ### 1. Repository Cleanup
 * Renamed default branch to `main`.
 * Force-pushed a clean "Initial Project Upload" to GitHub.
@@ -91,17 +89,8 @@ sudo chmod -R 755 /var/www/html
 ---
 
 ## 👤 Author
-
 **Muhammad Zubair**
-
 * GitHub: [@Muhammad-Zubair796](https://www.google.com/search?q=https://github.com/Muhammad-Zubair796)
-
 ```
 
----
 
-
-
-**Would you like me to add a section to the README on how to set up an SSL certificate (HTTPS) using Let's Encrypt?**
-
-```
